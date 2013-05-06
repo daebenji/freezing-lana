@@ -1,0 +1,7 @@
+#!/bin/bash
+
+#build the tunnel to remote_ip via host
+ssh -N -L <local_port>:<remote_ip>:<remote_port user@host &
+
+#connect to host, via local port
+ssh -p <local_port> <user>@localhost
