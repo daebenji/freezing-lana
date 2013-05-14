@@ -1,0 +1,8 @@
+Sed:
+
+Achtung mit den Hochkommas!
+
+Zeile an bestimmter Position einfügen(hier zeile 12) und dazu noch huebsch mit
+Tabulatoren formatieren:
+
+sed ‘12i\\tTEXT\t\t\tMEHRTEXT’ <Datei> 
