@@ -1,0 +1,75 @@
+\documentclass[a4paper,10pt]{report}
+%\documentclass[a4paper,10pt]{scrartcl}
+
+\usepackage[utf8]{inputenc}
+\title{Benjis Dokumentation}
+\author{Benjamin Ludwig}
+\date{}
+
+\pdfinfo{%
+  /Title    ()
+  /Author   () 
+  /Creator  ()
+  /Producer ()	
+  /Subject  ()
+  /Keywords ()
+}
+
+\begin{document}
+ 
+\maketitle
+\tableofcontents
+\chapter{Monitoring}
+\section{Icinga Zeitprofile}
+
+
+\begin{verbatim}
+
+es wird eine Zeitperiode definiert, in der Alarmiert werden soll. 
+Diese Periode ist dann mit 'check_period' auf den einzelnen Host 
+oder Service anzuwenden. 
+Im Beispiel soll immer alarmiert werden, AUSER von 05:00-06:25 
+jeden Tag. 
+
+Alarmierung für bestimmten Zeitpunkt abschalten:
+\end{verbatim}
+
+{\Large
+\begin{verbatim}
+define timeperiod {
+
+     timeperiod_name 24x7_backup
+     alias           immer-frueh
+     sunday  00:00-05:00,06:25-24:00
+     monday  00:00-05:00,06:25-24:00
+     tuesday 00:00-05:00,06:25-24:00
+     wednesday       00:00-05:00,06:25-24:00
+     thursday        00:00-05:00,06:25-24:00
+     friday  00:00-05:00,06:25-24:00
+     saturday        00:00-05:00,06:25-24:00
+}
+
+\end{verbatim}
+}
+\chapter{sonstige Hacks}
+\section{Unter Ubuntu jffs2-images mounten}
+\begin{verbatim}
+sudo apt-get install mtd-tools
+sudo modprobe -v mtd
+sudo modprobe -v jffs2
+sudo modprobe -v mtdram total_size=256000 erase_size=256
+sudo modprobe -v mtdchar
+sudo modprobe -v mtdblock
+sudo dd if=<deinImage.img> of=/dev/mtd0
+sudo mount -t jffs2 /dev/mtdblock0 <deinPfadWoEsHinSoll>
+\end{verbatim}
+
+\section{Sed spielerei die Erste}
+\begin{verbatim}
+Achtung mit den Hochkommas!
+Zeile an bestimmter Position einfügen(hier zeile 12) und dazu 
+noch huebsch mit Tabulatoren formatieren:
+sed ‘12i\\tTEXT\t\t\tMEHRTEXT’ <Datei>
+\end{verbatim}
+
+\end{document}
