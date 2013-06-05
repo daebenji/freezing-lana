@@ -2,6 +2,8 @@
 %\documentclass[a4paper,10pt]{scrartcl}
 
 \usepackage[utf8]{inputenc}
+\usepackage{hyperref}
+
 \title{Benjis Dokumentation}
 \author{Benjamin Ludwig}
 \date{}
@@ -18,6 +20,14 @@
 \begin{document}
  
 \maketitle
+\hypersetup{
+    colorlinks,
+    citecolor=black,
+    filecolor=black,
+    linkcolor=black,
+    urlcolor=black
+    linktocpage
+}
 \tableofcontents
 \chapter{Monitoring}
 \section{Icinga Zeitprofile}
