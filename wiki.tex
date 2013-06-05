@@ -135,4 +135,23 @@ rsync -chavz	P --stats /etc/apache2 \
 logger -t Backup "incremental backup done"
 \end{verbatim}
 
+\section{Mounten unter Linux}
+\begin{verbatim}
+
+place a credentials file at a place of your choise. in that case 
+> /etc/backup-creds
+put username and password in it as below.
+
+cat /etc/backup-creds
+username=<Domain>/<Password>
+password=<password of $username>
+
+Mount manually with:
+mount -t cifs -o rw,nobrl,nosuid,nodev,credentials=</path_to_credentials file> \
+<//backup-server/backup_path </local_mount_point/<local_backup_path/>
+
+or put it in /etc/fstab for mounting it on bootstrap:
+<//backup-server/backup_path  </local_mount_point/<local_backup_path/>  \
+cifs    noauto,credentials=/etc/backup-creds    0       0
+\end{verbatim}
 \end{document}
