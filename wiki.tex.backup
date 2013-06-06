@@ -2,8 +2,6 @@
 %\documentclass[a4paper,10pt]{scrartcl}
 
 \usepackage[utf8]{inputenc}
-\usepackage{hyperref}
-
 \title{Benjis Dokumentation}
 \author{Benjamin Ludwig}
 \date{}
@@ -20,14 +18,6 @@
 \begin{document}
  
 \maketitle
-\hypersetup{
-    colorlinks,
-    citecolor=black,
-    filecolor=black,
-    linkcolor=black,
-    urlcolor=black
-    linktocpage
-}
 \tableofcontents
 \chapter{Monitoring}
 \section{Icinga Zeitprofile}
@@ -123,7 +113,7 @@ spawn /usr/bin/ssh admin@${IPADDRESS}
 
 while (1) {
     expect {
-        "password:" {			
+        "password:" {	
             send "${PASSWORD}\n"
             break
         }
@@ -136,47 +126,4 @@ expect "ES-2024PWR#" { send "exit\n" }
 
 \end{verbatim}
 
-\section{rsync-magic}
-\begin{verbatim}
-logger -t Backup "begin incremental backup of <Directory>"
-# incremental backup of /etc/apache2/*
-rsync -chavz	P --stats /etc/apache2 \
-<user>@<server>:<path_on_remote_host>
-logger -t Backup "incremental backup done"
-\end{verbatim}
-\pagebreak
-
-\section{Mounten unter Linux}
-\begin{verbatim}
-
-place a credentials file at a place of your choise. in that case 
-> /etc/backup-creds
-put username and password in it as below.
-
-cat /etc/backup-creds
-username=<Domain>/<Password>
-password=<password of $username>
-
-Mount manually with:
-mount -t cifs -o rw,nobrl,nosuid,nodev,credentials=</path_to_credentials file> \
-<//backup-server/backup_path </local_mount_point/<local_backup_path/>
-
-or put it in /etc/fstab for mounting it on bootstrap:
-<//backup-server/backup_path  </local_mount_point/<local_backup_path/>  \
-cifs    noauto,credentials=/etc/backup-creds    0       0
-\end{verbatim}
-
-\section{PDF Einschränkungen entfernen}
-\begin{verbatim}
-
-Entfert Drucksperren, editier und extrahier-einschränkungen auf PDFs.
-
-1.  Install QPDF:
-    > sudo aptitude install qpdf
-2.  Remove restrictions:
-    > qpdf --decrypt input.pdf output.pdf
-3.  To do this with many PDFs use the following one-liner:
-    > for file in *.pdf; do qpdf --decrypt $file ${file/.pdf/_rescued.pdf}; done
-
-\end{verbatim}
 \end{document}
