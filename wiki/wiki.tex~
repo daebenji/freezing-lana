@@ -101,7 +101,7 @@ scp -P <local_port> root@localhost:<remote_pfad> <lokaler_pfad>
 \section{expect-scripts}
 \begin{verbatim}
 #!/usr/bin/expect
-
+\chapter{sonstige Hacks}
 if {$argc != 1} {
     send_user "\tusage: $argv0 <ip-address>\n"
     exit
@@ -178,5 +178,54 @@ Entfert Drucksperren, editier und extrahier-einschränkungen auf PDFs.
 3.  To do this with many PDFs use the following one-liner:
     > for file in *.pdf; do qpdf --decrypt $file ${file/.pdf/_rescued.pdf}; done
 
+\end{verbatim}
+
+\chapter{Datenbanken}
+\pagebreak
+\section{Postgres DB - HBA config}
+\begin{verbatim}
+
+für Postgresql gibt es eine Datei /etc/postgresql/<VERSION>/main/pg_hba.conf
+die als Art "Firewall" Funktion für die Datenbank funktioniert.
+
+Standardmässig besagt diese das Verbindungen ausschliesslich von Lokal auf die
+Datenbank gemacht werden dürfen.
+
+um dies zu Ändern muss die entsprechende IP oder das Netz angegeben werden:
+
+# Database administrative login by UNIX sockets
+local   all         postgres                         trust
+
+# TYPE  DATABASE    USER        CIDR-ADDRESS          METHOD
+
+# "local" is for Unix domain socket connections only
+#local  all         all                               ident
+local   all         all                               ident
+# IPv4 local connections:
+#host   all         all         127.0.0.1/32          md5
+host    all         all         127.0.0.1/32          md5
+host    all         all         192.168.0.1/24        trust
+# IPv6 local connections:
+#host   all         all         ::1/128               md5
+host    all         all         ::1/128               md5
+host    all         all         192.168.0.1/24        md5
+
+\end{verbatim}
+
+\section{Postgres Tunnel für pgadmin}
+\begin{verbatim}
+pgadmin wird verwendet um eine GUI Oberfläche für Postgresql Datenbanken zu 
+haben. Da wegen der oben bereits erwähnten Firewall meist nur von lokal aus 
+verbunden werden kann, benötigt es einen Tunnel um eine Verbindung herzu-
+stellen.
+
+der Tunnel wird wie gewöhnlich über SSH gestartet:
+
+ssh -L <LokalerPort>:localhost:<5432(standard bei psql)> username@remote_ip 
+\end{verbatim}
+
+\section{Datenbank Passwort to md5}
+\begin{verbatim}
+UPDATE <TABLE> SET <ATTRIBUTE>=md5('pass') WHERE <ATTRIBUTE>='<VALUE>';
 \end{verbatim}
 \end{document}
