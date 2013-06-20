@@ -187,7 +187,19 @@ Entfert Drucksperren, editier und extrahier-einschränkungen auf PDFs.
 2.  arandr von der comando-zeile aus starten. Ein GUI geht auf und dann die 
     Bildschirme zurecht rücken wie man es braucht.
 \end{verbatim}
+\pagebreak
+\section{Config Routing add/del}
+\begin{verbatim}
+ 
+Routen Setzen um Gateway im Entsprechenden Netz zu erreichen:
+sudo route add -net 10.0.2.0/24 eth0
+sudo route del -net 10.0.2.0 netmask 255.255.255.0 dev eth0
 
+IP-Forwarding zwichen 2 Interfacen in Linux aktivieren
+sysctl -w net.ipv4.ip_forward=1
+echo 1 >/proc/sys/net/ipv4/ip_forward
+
+\end{verbatim}
 
 \chapter{Datenbanken}
 
