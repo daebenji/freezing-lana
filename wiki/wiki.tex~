@@ -180,8 +180,17 @@ Entfert Drucksperren, editier und extrahier-einschränkungen auf PDFs.
 
 \end{verbatim}
 
+\section{Ubuntu XFCE extended Screen}
+\begin{verbatim}
+1.  Install arandr:
+    > sudo apt-get install arandr
+2.  arandr von der comando-zeile aus starten. Ein GUI geht auf und dann die 
+    Bildschirme zurecht rücken wie man es braucht.
+\end{verbatim}
+
+
 \chapter{Datenbanken}
-\pagebreak
+
 \section{Postgres DB - HBA config}
 \begin{verbatim}
 
@@ -228,4 +237,5 @@ ssh -L <LokalerPort>:localhost:<5432(standard bei psql)> username@remote_ip
 \begin{verbatim}
 UPDATE <TABLE> SET <ATTRIBUTE>=md5('pass') WHERE <ATTRIBUTE>='<VALUE>';
 \end{verbatim}
+
 \end{document}
