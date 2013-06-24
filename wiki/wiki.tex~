@@ -187,7 +187,7 @@ Entfert Drucksperren, editier und extrahier-einschränkungen auf PDFs.
 2.  arandr von der comando-zeile aus starten. Ein GUI geht auf und dann die 
     Bildschirme zurecht rücken wie man es braucht.
 \end{verbatim}
-
+\pagebreak
 \section{Config Routing add/del}
 \begin{verbatim}
  
@@ -200,6 +200,64 @@ sysctl -w net.ipv4.ip_forward=1
 echo 1 >/proc/sys/net/ipv4/ip_forward
 
 \end{verbatim}
+
+\section{ldap befehle zum abfragen}
+\begin{verbatim}
+ 
+Alle Benutzer listen:
+ldapsearch -h host.domain(dc.foobar.com) -p 389 -x \
+-b "ou=Mitarbeiter,ou=Benutzer,dc=domain,dc=com" \
+-D "ldapbinduser@domain	" -w anonymous
+
+Alle Gruppen und deren beinhaltende Benutzer listen:
+ldapsearch -h host.domain(dc.foobar.com) -p 389 -x \
+-b "ou=SicherheitsGruppen,ou=Benutzer,dc=domain(foobar),dc=com" 
+\-D "ldapbinduser@domain" -w anonymous
+
+
+\end{verbatim}
+\pagebreak
+
+\section{Doku Wiki Authldap Plugin config}
+\begin{verbatim}
+server Adresse zum LDAP-Server. Entweder als Hostname (localhost)
+oder als FQDN > ldap://dc.server.com:389
+
+port Port des LDAP-Servers, falls kein Port angegeben wurde. 
+trotzdem angeben wenn angegeben. > 389
+
+usertree Zweig, in dem die Benutzeraccounts gespeichert sind.
+> ou=Mitarbeiter,ou=Benutzer,dc=domain,dc=com    
+
+grouptree Zweig, in dem die Benutzergruppen gespeichert sind. 
+> ou=SicherheitsGruppen,ou=Benutzer,dc=domain,dc=de
+
+userfilter LDAP-Filter, um die Benutzeraccounts zu suchen.
+> (userPrincipalName=%{user}@domain.com)
+
+groupfilter LDAP-Filter, um die Benutzergruppen zu suchen. 
+> (&(cn=*)(Member=%{dn})(objectClass=group))
+
+version Zu verwendende Protokollversion von LDAP. > 3   
+
+starttls Verbindung über TLS aufbauen? > nicht ankreutzen 
+
+referrals Weiterverfolgen von LDAP-Referrals (Verweise)? > nicht ankreutzen
+
+binddn DN eines optionalen Benutzers, wenn der anonyme Zugriff 
+nicht ausreichend ist. > ldapbinduser@domain.com
+
+bindpw Passwort des angegebenen Benutzers. > passwort
+
+userscope Die Suchweite nach Benutzeraccounts. > sub
+
+groupscope Die Suchweite nach Benutzergruppen. > sub
+
+groupkey Gruppieren der Benutzeraccounts anhand eines beliebigen 
+Benutzerattributes z. B. > cn
+
+\end{verbatim}
+
 
 \chapter{Datenbanken}
 
