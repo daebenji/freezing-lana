@@ -387,6 +387,7 @@ Benutzer den Mandanten zuweisen
 
 
 Karten Mandanten zuweisen
+
 -- DELETE FROM srv_card2mandant;
 INSERT INTO srv_card2mandant (card_id, mandanten_id)
 SELECT card_id, 2 as mandanten_id FROM srv_user_cards;
@@ -400,6 +401,17 @@ UPDATE srv_user_cards uc
 SET uc.user_id = (
 SELECT u.user_id FROM srv_user u 
 WHERE u.name=substring(uc.karten_nr FROM 17));
+
+
+Gruppen zu Mandanten hinfügen
+
+insert into srv_leser_gruppen2mandant (leser_group_id, mandanten_id)
+select leser_group_id, 2 as mandanten_id from srv_leser_gruppen lg
+EXCEPT 
+select leser_group_id, mandanten_id from srv_leser_gruppen2mandant lg2m
+where lg2m.mandanten_id = 2;
+
+
 
 \end{verbatim}
 
