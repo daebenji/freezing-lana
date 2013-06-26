@@ -356,7 +356,7 @@ ssh -L <LokalerPort>:localhost:<5432(standard bei psql)> username@remote_ip
 UPDATE <TABLE> SET <ATTRIBUTE>=md5('pass') WHERE <ATTRIBUTE>='<VALUE>';
 \end{verbatim}
 
-\section{Datenbank Passwort to md5}
+\section{ZKS Karten und Benutzer Import}
 \begin{verbatim}
 ZKS Karten Importieren
 

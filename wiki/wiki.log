@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.4.8)  26 JUN 2013 15:06
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.4.8)  26 JUN 2013 15:08
 entering extended mode
  %&-line parsing enabled.
 **wiki.tex
@@ -574,10 +574,10 @@ ern verkn^^?upft.[]
 
 [11] (./wiki.aux) ) 
 Here is how much of TeX's memory you used:
- 3772 strings out of 495061
- 54419 string characters out of 1182622
+ 3773 strings out of 495061
+ 54432 string characters out of 1182622
  121061 words of memory out of 3000000
- 6889 multiletter control sequences out of 15000+50000
+ 6890 multiletter control sequences out of 15000+50000
  9137 words of font info for 33 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  38i,6n,36p,249b,415s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -588,9 +588,9 @@ mf-texlive/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/f
 onts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-texlive/fonts/type1/p
 ublic/amsfonts/cm/cmtt10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfo
 nts/cm/cmtt12.pfb>
-Output written on wiki.pdf (12 pages, 133720 bytes).
+Output written on wiki.pdf (12 pages, 134868 bytes).
 PDF statistics:
- 193 PDF objects out of 1000 (max. 8388607)
+ 197 PDF objects out of 1000 (max. 8388607)
  34 named destinations out of 1000 (max. 500000)
- 161 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 169 words of extra memory for PDF output out of 10000 (max. 10000000)
 
