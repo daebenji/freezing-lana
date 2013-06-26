@@ -201,6 +201,8 @@ echo 1 >/proc/sys/net/ipv4/ip_forward
 
 \end{verbatim}
 
+
+
 \section{ldap befehle zum abfragen}
 \begin{verbatim}
  
@@ -214,6 +216,52 @@ ldapsearch -h host.domain(dc.foobar.com) -p 389 -x \
 -b "ou=SicherheitsGruppen,ou=Benutzer,dc=domain(foobar),dc=com" 
 \-D "ldapbinduser@domain" -w anonymous
 
+
+\end{verbatim}
+\section{esxi install e1000e Treiber für 82579LM}
+\begin{verbatim}
+ 
+Runterladen:
+http://shell.peach.ne.jp/~aoyama/wordpress/download/net-e1000e-2.1.4.x86_64.vib
+
+Datei per scp kopieren
+scp *.vib root@esxi:/tmp
+
+ESXi in maintenance mode schicken:
+esxcli system maintenanceMode set -e true -t 0
+
+Set the host acceptance level to CommunitySupported:
+esxcli software acceptance set --level=CommunitySupported
+
+Install the vib package:
+esxcli software vib install -v /tmp/net-e1000e-2.1.4.x86_64.vib
+
+Exit the ESXi from maintenance mode.
+esxcli system maintenanceMode set -e false -t 0
+
+Reboot
+
+\end{verbatim}
+
+\section{vmdk aus VMPlayer für ESXI konvertieren}
+\begin{verbatim}
+
+Basis-VM von VMPlayer zu ESXi konvertieren
+
+1. Download des VMWare VDDK (Virtual Disk Development Kit) 
+Download VDDK … Login erforderlich
+2. Aufruf: vmware-vdiskmanager -r vmplayer.vmdk -t 4 esx(i).vmdk
+3. Anm: Disksize verdoppelt sich ca.von 4GB auf 8GB
+
+direkt auf dem ESXI Host geht es auch
+
+1. Die vmdk in den Datastore kopieren
+2. per SSH auf den ESXI Host verbinden
+3. vmkfstools -i “/vmfs/volumes/Datastore/examplevm/examplevm.vmdk“ 
+“/vmfs/volumes/Datastore 2/newexamplevm/newexamplevm.vmdk“
+
+use -d thin if this was a thin provisioned client. you need to 
+run this for every VMDK file if it’s thin provisioned in the directory. 
 
 \end{verbatim}
 \pagebreak
@@ -306,6 +354,53 @@ ssh -L <LokalerPort>:localhost:<5432(standard bei psql)> username@remote_ip
 \section{Datenbank Passwort to md5}
 \begin{verbatim}
 UPDATE <TABLE> SET <ATTRIBUTE>=md5('pass') WHERE <ATTRIBUTE>='<VALUE>';
+\end{verbatim}
+
+\section{Datenbank Passwort to md5}
+\begin{verbatim}
+ZKS Karten Importieren
+
+Karten per insert Statement einfügen:
+
+--insert into srv_user_cards (karten_nr, gesperrt) 
+VALUES ('0000000000000000001', 'false');
+
+
+Benutzer Importieren(letzte 3 Stellen der 
+Karten Nummer = Benutzername(nachname))
+
+-- SELECT * FROM srv_user;
+
+-- INSERT INTO srv_user (name, vorname, firma)
+-- SELECT substring(karten_nr FROM 17) as name, 
+'Karte' as vorname, '' as firma FROM srv_user_cards;
+
+
+Benutzer den Mandanten zuweisen
+
+-- DELETE FROM srv_user2mandant;
+
+--INSERT INTO srv_user2mandant (user_id, mandanten_id)
+-- SELECT user_id, 2 AS mandanten_id FROM srv_user;
+-- SELECT name FROM srv_user;
+
+
+
+Karten Mandanten zuweisen
+-- DELETE FROM srv_card2mandant;
+INSERT INTO srv_card2mandant (card_id, mandanten_id)
+SELECT card_id, 2 as mandanten_id FROM srv_user_cards;
+
+
+Karten den Benutzern zuweisen. 
+Karten bei denen die letzten 3 Stellen mit den Benutzernamen 
+übereinstimmen(karte.001 = benutzer.001) werden miteinandern verknüpft.
+
+UPDATE srv_user_cards uc
+SET uc.user_id = (
+SELECT u.user_id FROM srv_user u 
+WHERE u.name=substring(uc.karten_nr FROM 17));
+
 \end{verbatim}
 
 \end{document}

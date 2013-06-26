@@ -11,8 +11,11 @@
 \contentsline {section}{\numberline {2.8}Ubuntu XFCE extended Screen}{5}{section.2.8}
 \contentsline {section}{\numberline {2.9}Config Routing add/del}{6}{section.2.9}
 \contentsline {section}{\numberline {2.10}ldap befehle zum abfragen}{6}{section.2.10}
-\contentsline {section}{\numberline {2.11}Doku Wiki Authldap Plugin config}{7}{section.2.11}
-\contentsline {chapter}{\numberline {3}Datenbanken}{8}{chapter.3}
-\contentsline {section}{\numberline {3.1}Postgres DB - HBA config}{8}{section.3.1}
-\contentsline {section}{\numberline {3.2}Postgres Tunnel f\IeC {\"u}r pgadmin}{9}{section.3.2}
-\contentsline {section}{\numberline {3.3}Datenbank Passwort to md5}{9}{section.3.3}
+\contentsline {section}{\numberline {2.11}esxi install e1000e Treiber f\IeC {\"u}r 82579LM}{6}{section.2.11}
+\contentsline {section}{\numberline {2.12}vmdk aus VMPlayer f\IeC {\"u}r ESXI konvertieren}{7}{section.2.12}
+\contentsline {section}{\numberline {2.13}Doku Wiki Authldap Plugin config}{8}{section.2.13}
+\contentsline {chapter}{\numberline {3}Datenbanken}{9}{chapter.3}
+\contentsline {section}{\numberline {3.1}Postgres DB - HBA config}{9}{section.3.1}
+\contentsline {section}{\numberline {3.2}Postgres Tunnel f\IeC {\"u}r pgadmin}{10}{section.3.2}
+\contentsline {section}{\numberline {3.3}Datenbank Passwort to md5}{10}{section.3.3}
+\contentsline {section}{\numberline {3.4}Datenbank Passwort to md5}{10}{section.3.4}
