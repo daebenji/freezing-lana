@@ -264,6 +264,31 @@ use -d thin if this was a thin provisioned client. you need to
 run this for every VMDK file if it’s thin provisioned in the directory. 
 
 \end{verbatim}
+
+\section{Swiss Macintosh Keyboard on Ubuntu 9.04 to 12.04 LTS (Precise Pangolin)}
+\begin{verbatim}
+
+Funktionsknopf:
+
+1. Run the following command to append the configuration line to the file 
+/etc/modprobe.d/hid_apple.conf creating it if necessary: 
+  $ echo options hid_apple fnmode=2 | sudo tee -a /etc/modprobe.d/hid_apple.conf
+
+2. Trigger copying the configuration into the initramfs bootfile.
+  $ sudo update-initramfs -u -k all
+  
+grösser / kleiner als knopf:
+
+* Create a new file ./.Xmodmap
+
+vim ./.Xmodmap
+keycode 49 = less greater less greater bar brokenbar bar 
+! special section for Switzerland
+keycode 91 = period period
+keycode 94 = section degree
+
+$ xmodmap ~/.Xmodmap
+\end{verbatim}
 \pagebreak
 
 \section{Doku Wiki Authldap Plugin config}
