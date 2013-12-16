@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.4.8)  2 JUL 2013 14:12
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.4.8)  16 DEC 2013 12:08
 entering extended mode
  %&-line parsing enabled.
 **wiki.tex
@@ -455,159 +455,159 @@ Overfull \hbox (38.24666pt too wide) in paragraph at lines 137--137
  []
 
 [4]
-Overfull \hbox (74.99634pt too wide) in paragraph at lines 167--167
+Overfull \hbox (74.99634pt too wide) in paragraph at lines 174--174
 []\OT1/cmtt/m/n/10 mount -t cifs -o rw,nobrl,nosuid,nodev,credentials=</path_to
 _credentials file> \[] 
  []
 
 
-Overfull \hbox (17.24684pt too wide) in paragraph at lines 167--167
+Overfull \hbox (17.24684pt too wide) in paragraph at lines 174--174
 []\OT1/cmtt/m/n/10 <//backup-server/backup_path </local_mount_point/<local_back
 up_path/>[] 
  []
 
 
-Overfull \hbox (38.24666pt too wide) in paragraph at lines 167--167
+Overfull \hbox (38.24666pt too wide) in paragraph at lines 174--174
 []\OT1/cmtt/m/n/10 <//backup-server/backup_path  </local_mount_point/<local_bac
 kup_path/>  \[] 
  []
 
 
-Overfull \hbox (17.24684pt too wide) in paragraph at lines 181--181
+Overfull \hbox (17.24684pt too wide) in paragraph at lines 188--188
 []\OT1/cmtt/m/n/10 Entfert Drucksperren, editier und extrahier-einschr^^?ankung
 en auf PDFs.[] 
  []
 
 
-Overfull \hbox (74.99634pt too wide) in paragraph at lines 181--181
+Overfull \hbox (74.99634pt too wide) in paragraph at lines 188--188
 []    \OT1/cmtt/m/n/10 > for file in *.pdf; do qpdf --decrypt $file ${file/.pdf
 /_rescued.pdf}; done[] 
  []
 
 
-Overfull \hbox (48.74657pt too wide) in paragraph at lines 189--189
+Overfull \hbox (48.74657pt too wide) in paragraph at lines 196--196
 []\OT1/cmtt/m/n/10 2.  arandr von der comando-zeile aus starten. Ein GUI geht a
 uf und dann die[] 
  []
 
 [5]
-Overfull \hbox (69.74638pt too wide) in paragraph at lines 244--244
+Overfull \hbox (69.74638pt too wide) in paragraph at lines 251--251
 []\OT1/cmtt/m/n/10 http://shell.peach.ne.jp/~aoyama/wordpress/download/net-e100
 0e-2.1.4.x86_64.vib[] 
  []
 
 [6]
-Overfull \hbox (6.74693pt too wide) in paragraph at lines 266--266
+Overfull \hbox (6.74693pt too wide) in paragraph at lines 273--273
 []\OT1/cmtt/m/n/10 3. vmkfstools -i \/vmfs/volumes/Datastore/examplevm/examplev
 m.vmdk\[] 
  []
 
 
-Overfull \hbox (27.74675pt too wide) in paragraph at lines 266--266
+Overfull \hbox (27.74675pt too wide) in paragraph at lines 273--273
 []\OT1/cmtt/m/n/10 run this for every VMDK file if it's thin provisioned in the
  directory.[] 
  []
 
 
-Overfull \hbox (38.24666pt too wide) in paragraph at lines 293--293
+Overfull \hbox (38.24666pt too wide) in paragraph at lines 298--298
 []\OT1/cmtt/m/n/10 1. Run the following command to append the configuration lin
 e to the file[] 
  []
 
 
-Overfull \hbox (74.99634pt too wide) in paragraph at lines 293--293
+Overfull \hbox (74.99634pt too wide) in paragraph at lines 298--298
 []  \OT1/cmtt/m/n/10 $ echo options hid_apple fnmode=2 | sudo tee -a /etc/modpr
 obe.d/hid_apple.conf[] 
  []
 
-[7] [8]
-Overfull \hbox (48.74657pt too wide) in paragraph at lines 334--334
+[7]
+Overfull \hbox (48.74657pt too wide) in paragraph at lines 339--339
 []\OT1/cmtt/m/n/10 referrals Weiterverfolgen von LDAP-Referrals (Verweise)? > n
 icht ankreutzen[] 
  []
 
-[9]
+[8]
 Chapter 3.
 
-Overfull \hbox (53.99652pt too wide) in paragraph at lines 367--367
+Overfull \hbox (53.99652pt too wide) in paragraph at lines 372--372
 []\OT1/cmtt/m/n/10 f^^?ur Postgresql gibt es eine Datei /etc/postgresql/<VERSIO
 N>/main/pg_hba.conf[] 
  []
 
 
-Overfull \hbox (64.49643pt too wide) in paragraph at lines 367--367
+Overfull \hbox (64.49643pt too wide) in paragraph at lines 372--372
 []\OT1/cmtt/m/n/10 Standardm^^?assig besagt diese das Verbindungen ausschliessl
 ich von Lokal auf die[] 
  []
 
 
-Overfull \hbox (48.74657pt too wide) in paragraph at lines 367--367
+Overfull \hbox (48.74657pt too wide) in paragraph at lines 372--372
 []\OT1/cmtt/m/n/10 um dies zu []Andern muss die entsprechende IP oder das Netz 
 angegeben werden:[] 
  []
 
-[10
+[9
 
 ]
-Overfull \hbox (48.74657pt too wide) in paragraph at lines 379--379
+Overfull \hbox (48.74657pt too wide) in paragraph at lines 384--384
 []\OT1/cmtt/m/n/10 pgadmin wird verwendet um eine GUI Oberfl^^?ache f^^?ur Post
 gresql Datenbanken zu[] 
  []
 
 
-Overfull \hbox (48.74657pt too wide) in paragraph at lines 379--379
+Overfull \hbox (48.74657pt too wide) in paragraph at lines 384--384
 []\OT1/cmtt/m/n/10 haben. Da wegen der oben bereits erw^^?ahnten Firewall meist
  nur von lokal aus[] 
  []
 
 
-Overfull \hbox (38.24666pt too wide) in paragraph at lines 379--379
+Overfull \hbox (38.24666pt too wide) in paragraph at lines 384--384
 []\OT1/cmtt/m/n/10 verbunden werden kann, ben^^?otigt es einen Tunnel um eine V
 erbindung herzu-[] 
  []
 
 
-Overfull \hbox (48.74657pt too wide) in paragraph at lines 379--379
+Overfull \hbox (48.74657pt too wide) in paragraph at lines 384--384
 []\OT1/cmtt/m/n/10 ssh -L <LokalerPort>:localhost:<5432(standard bei psql)> use
 rname@remote_ip[] 
  []
 
 
-Overfull \hbox (27.74675pt too wide) in paragraph at lines 384--384
+Overfull \hbox (27.74675pt too wide) in paragraph at lines 389--389
 []\OT1/cmtt/m/n/10 UPDATE <TABLE> SET <ATTRIBUTE>=md5('pass') WHERE <ATTRIBUTE>
 ='<VALUE>';[] 
  []
 
-[11]
-Overfull \hbox (27.74675pt too wide) in paragraph at lines 443--443
+[10]
+Overfull \hbox (27.74675pt too wide) in paragraph at lines 448--448
 []\OT1/cmtt/m/n/10 ^^?ubereinstimmen(karte.001 = benutzer.001) werden miteinand
 ern verkn^^?upft.[] 
  []
 
 
-Overfull \hbox (11.99689pt too wide) in paragraph at lines 443--443
+Overfull \hbox (11.99689pt too wide) in paragraph at lines 448--448
 []\OT1/cmtt/m/n/10 insert into srv_leser_gruppen2mandant (leser_group_id, manda
 nten_id)[] 
  []
 
 
-Overfull \hbox (1.49698pt too wide) in paragraph at lines 443--443
+Overfull \hbox (1.49698pt too wide) in paragraph at lines 448--448
 []\OT1/cmtt/m/n/10 select leser_group_id, 2 as mandanten_id from srv_leser_grup
 pen lg[] 
  []
 
 
-Overfull \hbox (27.74675pt too wide) in paragraph at lines 443--443
+Overfull \hbox (27.74675pt too wide) in paragraph at lines 448--448
 []\OT1/cmtt/m/n/10 select leser_group_id, mandanten_id from srv_leser_gruppen2m
 andant lg2m[] 
  []
 
-[12] (./wiki.aux) ) 
+[11] (./wiki.aux) ) 
 Here is how much of TeX's memory you used:
- 3776 strings out of 495061
- 54465 string characters out of 1182622
+ 3777 strings out of 495061
+ 54484 string characters out of 1182622
  121061 words of memory out of 3000000
- 6891 multiletter control sequences out of 15000+50000
+ 6892 multiletter control sequences out of 15000+50000
  9137 words of font info for 33 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  38i,6n,36p,249b,415s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -618,9 +618,9 @@ mf-texlive/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/f
 onts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-texlive/fonts/type1/p
 ublic/amsfonts/cm/cmtt10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfo
 nts/cm/cmtt12.pfb>
-Output written on wiki.pdf (13 pages, 137566 bytes).
+Output written on wiki.pdf (12 pages, 137681 bytes).
 PDF statistics:
  208 PDF objects out of 1000 (max. 8388607)
  36 named destinations out of 1000 (max. 500000)
- 177 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 185 words of extra memory for PDF output out of 10000 (max. 10000000)
 
