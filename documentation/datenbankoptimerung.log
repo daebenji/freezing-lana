@@ -1,33 +1,137 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.4.8)  25 JUN 2014 11:36
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.4.8)  12 AUG 2013 09:59
 entering extended mode
  %&-line parsing enabled.
-**wiki.tex
-(./wiki.tex
+**datenbankoptimerung
+(./datenbankoptimerung
 LaTeX2e <2009/09/24>
 Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
 yphenation, loaded.
-(/usr/share/texmf-texlive/tex/latex/base/report.cls
-Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
-(/usr/share/texmf-texlive/tex/latex/base/size10.clo
-File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+(/usr/share/texmf-texlive/tex/latex/koma-script/scrartcl.cls
+Document Class: scrartcl 2009/07/24 v3.04a KOMA-Script document class (article)
+
+(/usr/share/texmf-texlive/tex/latex/koma-script/scrkbase.sty
+Package: scrkbase 2009/07/24 v3.04a KOMA-Script package (KOMA-Script-dependent 
+basics and keyval usage)
+
+(/usr/share/texmf-texlive/tex/latex/koma-script/scrbase.sty
+Package: scrbase 2009/07/24 v3.04a KOMA-Script package (KOMA-Script-independent
+ basics and keyval usage)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
 )
-\c@part=\count79
-\c@chapter=\count80
+(/usr/share/texmf-texlive/tex/latex/koma-script/scrlfile.sty
+Package: scrlfile 2009/03/25 v3.03 KOMA-Script package (loading files)
+
+Package scrlfile, 2009/03/25 v3.03 KOMA-Script package (loading files)
+                  Copyright (C) Markus Kohm
+
+))) (/usr/share/texmf-texlive/tex/latex/koma-script/tocbasic.sty
+Package: tocbasic 2009/06/08 v3.03b KOMA-Script package (handling toc-files)
+)
+Package tocbasic Info: omitting babel extension for `toc'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `toc' on input line 115.
+Package tocbasic Info: omitting babel extension for `lof'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `lof' on input line 116.
+Package tocbasic Info: omitting babel extension for `lot'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `lot' on input line 117.
+Package scrartcl Info: You've used obsolete option `10pt'.
+(scrartcl)             \KOMAExecuteOptions{fontsize=10pt} will be
+(scrartcl)             used instead.
+(scrartcl)             You may simply replace `10pt'
+(scrartcl)             by `fontsize=10pt'.
+Class scrartcl Info: You've used standard option `oneside'.
+(scrartcl)           This is correct!
+(scrartcl)           Internaly I'm using `twoside=false'.
+(scrartcl)           If you'd like to set the option with \KOMAoptions,
+(scrartcl)           you'd have to use `twoside=false' there
+(scrartcl)           instead of `oneside', too.
+Class scrartcl Info: File `scrsize10pt.clo' used to setup font sizes on input l
+ine 1171.
+
+(/usr/share/texmf-texlive/tex/latex/koma-script/scrsize10pt.clo
+File: scrsize10pt.clo 2009/07/24 v3.04a KOMA-Script font size class option (10p
+t)
+)
+(/usr/share/texmf-texlive/tex/latex/koma-script/typearea.sty
+Package: typearea 2009/07/24 v3.04a KOMA-Script package (type area)
+
+Package typearea, 2009/07/24 v3.04a KOMA-Script package (type area)
+                  Copyright (C) Frank Neukam, 1992-1994
+                  Copyright (C) Markus Kohm, 1994-
+
+\ta@bcor=\skip41
+\ta@div=\count79
+Package typearea Info: You've used standard option `a4paper'.
+(typearea)             This is correct!
+(typearea)             Internaly I'm using `paper=a4'.
+(typearea)             If you'd like to set the option with \KOMAoptions,
+(typearea)             you'd have to use `paper=a4' there
+(typearea)             instead of `a4paper', too.
+Package typearea Info: You've used standard option `oneside'.
+(typearea)             This is correct!
+(typearea)             Internaly I'm using `twoside=false'.
+(typearea)             If you'd like to set the option with \KOMAoptions,
+(typearea)             you'd have to use `twoside=false' there
+(typearea)             instead of `oneside', too.
+Package typearea Info: You've used standard option `pdftex'.
+(typearea)             This is correct!
+(typearea)             Internaly I'm using `pagesize=pdftex'.
+(typearea)             If you'd like to set the option with \KOMAoptions,
+(typearea)             you'd have to use `pagesize=pdftex' there
+(typearea)             instead of `pdftex', too.
+\ta@hblk=\skip42
+\ta@vblk=\skip43
+\ta@temp=\skip44
+Package typearea Info: These are the values describing the layout:
+(typearea)             DIV  = 8
+(typearea)             BCOR = 0.0pt
+(typearea)             \paperwidth      = 597.50793pt
+(typearea)              \textwidth      = 373.44246pt
+(typearea)              DIV departure   = -4%
+(typearea)              \evensidemargin = 39.76274pt
+(typearea)              \oddsidemargin  = 39.76274pt
+(typearea)             \paperheight     = 845.04694pt
+(typearea)              \textheight     = 538.0pt
+(typearea)              \topmargin      = 0.36087pt
+(typearea)              \headheight     = 15.0pt
+(typearea)              \headsep        = 18.0pt
+(typearea)              \topskip        = 10.0pt
+(typearea)              \footskip       = 42.0pt
+(typearea)              \baselineskip   = 12.0pt
+(typearea)              on input line 1115.
+)
+\c@part=\count80
 \c@section=\count81
 \c@subsection=\count82
 \c@subsubsection=\count83
 \c@paragraph=\count84
 \c@subparagraph=\count85
+\abovecaptionskip=\skip45
+\belowcaptionskip=\skip46
+\c@pti@nb@sid@b@x=\box26
 \c@figure=\count86
 \c@table=\count87
-\abovecaptionskip=\skip41
-\belowcaptionskip=\skip42
 \bibindent=\dimen102
+) (/usr/share/texmf-texlive/tex/latex/ucs/ucs.sty
+Package: ucs 2004/10/17 UCS: Unicode input support
+
+(/usr/share/texmf-texlive/tex/latex/ucs/data/uni-global.def
+File: uni-global.def 2004/10/17 UCS: Unicode global data
+)
+\uc@secondtry=\count88
+\uc@combtoks=\toks15
+\uc@combtoksb=\toks16
+\uc@temptokena=\toks17
 )
 (/usr/share/texmf-texlive/tex/latex/base/inputenc.sty
 Package: inputenc 2008/03/30 v1.1d Input encoding file
-\inpenc@prehook=\toks14
-\inpenc@posthook=\toks15
+\inpenc@prehook=\toks18
+\inpenc@posthook=\toks19
 
 (/usr/share/texmf-texlive/tex/latex/base/utf8.def
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
@@ -241,13 +345,54 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
+(/usr/share/texmf-texlive/tex/generic/babel/babel.sty
+Package: babel 2008/07/06 v3.8l The Babel package
+
+
+! Package babel Error: You haven't specified a language option.
+
+See the babel package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.149 ...ry to proceed from here, type x to quit.}
+                                                  
+You need to specify a language, either as a global option
+or as an optional argument to the \usepackage command; 
+You shouldn't try to proceed from here, type x to quit.
+
+(/usr/share/texmf-texlive/tex/generic/babel/babel.def
+File: babel.def 2008/07/06 v3.8l Babel common definitions
+\babel@savecnt=\count89
+\U@D=\dimen103
+))
+(/usr/share/texmf-texlive/tex/latex/base/fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+)
+(/usr/share/texmf-texlive/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/etc/texmf/tex/latex/config/graphics.cfg
+File: graphics.cfg 2009/08/28 v1.8 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(/usr/share/texmf-texlive/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2010/03/12 v0.04p Graphics/color for pdfTeX
+\Gread@gobject=\count90
+))
+\Gin@req@height=\dimen104
+\Gin@req@width=\dimen105
+)
 (/usr/share/texmf-texlive/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2009/10/09 v6.79a Hypertext links for LaTeX
 
-(/usr/share/texmf-texlive/tex/latex/graphics/keyval.sty
-Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
-\KV@toks@=\toks16
-)
 (/usr/share/texmf-texlive/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2009/04/10 v2.0 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in pdf mode detected.
@@ -266,9 +411,9 @@ O)
 (/usr/share/texmf-texlive/tex/latex/oberdiek/xcolor-patch.sty
 Package: xcolor-patch 2009/10/02 xcolor patch
 ))
-\@linkdim=\dimen103
-\Hy@linkcounter=\count88
-\Hy@pagecounter=\count89
+\@linkdim=\dimen106
+\Hy@linkcounter=\count91
+\Hy@pagecounter=\count92
 
 (/usr/share/texmf-texlive/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2009/10/09 v6.79a Hyperref: PDFDocEncoding definition (HO)
@@ -335,10 +480,10 @@ Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 )))
-\Fld@menulength=\count90
-\Field@Width=\dimen104
-\Fld@charsize=\dimen105
-\Field@toks=\toks17
+\Fld@menulength=\count93
+\Field@Width=\dimen107
+\Fld@charsize=\dimen108
+\Field@toks=\toks20
 Package hyperref Info: Hyper figures OFF on input line 4377.
 Package hyperref Info: Link nesting OFF on input line 4382.
 Package hyperref Info: Hyper index ON on input line 4385.
@@ -350,343 +495,142 @@ Package hyperref Info: PDF/A mode OFF on input line 4407.
 (/usr/share/texmf-texlive/tex/generic/oberdiek/atbegshi.sty
 Package: atbegshi 2008/07/31 v1.9 At begin shipout hook (HO)
 )
-\Hy@abspage=\count91
-\c@Item=\count92
-\c@Hfootnote=\count93
+\Hy@abspage=\count94
+\c@Item=\count95
+\c@Hfootnote=\count96
 )
-*hyperref using default driver hpdftex*
+
+Package hyperref Warning: Wrong driver `hdvips.def';
+(hyperref)                pdfTeX is running in PDF mode.
+(hyperref)                Forcing driver `hpdftex.def'.
+
+*hyperref using driver hpdftex*
 (/usr/share/texmf-texlive/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2009/10/09 v6.79a Hyperref driver for pdfTeX
-\Fld@listcount=\count94
-) (./wiki.aux)
-\openout1 = `wiki.aux'.
+\Fld@listcount=\count97
+)
+(./datenbankoptimerung.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-Package hyperref Info: Link coloring OFF on input line 20.
+! Package babel Error: You haven't loaded the option english yet.
 
-(/usr/share/texmf-texlive/tex/latex/hyperref/nameref.sty
+See the babel package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.14 \select@language{english}
+                              
+You may proceed, but expect unexpected results
+
+)
+\openout1 = `datenbankoptimerung.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+ (/usr/share/texmf-texlive/tex/latex/ucs/ucsencs.def
+File: ucsencs.def 2003/11/29 Fixes to fontencodings LGR, T3
+)
+
+Package ucs Warning: ***************************
+(ucs)                You seem to have loaded inputencoding utf8
+(ucs)                (LaTeX kernel UTF-8) instead of utf8x (ucs.sty UTF-8).
+(ucs)                Probably you are compiling a document written for a
+(ucs)                pre-august-2004 ucs.sty.
+(ucs)                ***************************
+(ucs)                Please use \usepackage[utf8x]{inputenc} instead of
+(ucs)                \usepackage[utf8]{inputenc}.
+(ucs)                ***************************
+(ucs)                If you should really want to use ucs.sty and kernel's
+(ucs)                utf8.def together, use \usepackage[utf8x,utf8]{inputenc}
+(ucs)                to disable compatibility mode
+(ucs)                ***************************
+(ucs)                Activating compatibility mode.
+(ucs)                ***************************
+(ucs)                 on input line 15.
+
+(/usr/share/texmf-texlive/tex/latex/ucs/utf8x.def
+File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
+)
+
+! Package babel Error: You haven't loaded the option english yet.
+
+See the babel package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.15 \begin{document}
+                     
+You may proceed, but expect unexpected results
+
+(/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count98
+\scratchdimen=\dimen109
+\scratchbox=\box27
+\nofMPsegments=\count99
+\nofMParguments=\count100
+\everyMPshowfont=\toks21
+\MPscratchCnt=\count101
+\MPscratchDim=\dimen110
+\MPnumerator=\count102
+\everyMPtoPDFconversion=\toks22
+)
+Package hyperref Info: Link coloring OFF on input line 15.
+ (/usr/share/texmf-texlive/tex/latex/hyperref/nameref.sty
 Package: nameref 2007/05/29 v2.31 Cross-referencing by name of section
 
 (/usr/share/texmf-texlive/tex/latex/oberdiek/refcount.sty
 Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
 )
-\c@section@level=\count95
+\c@section@level=\count103
 )
-LaTeX Info: Redefining \ref on input line 20.
-LaTeX Info: Redefining \pageref on input line 20.
- (./wiki.out)
-(./wiki.out)
-\@outlinefile=\write3
-\openout3 = `wiki.out'.
+LaTeX Info: Redefining \ref on input line 15.
+LaTeX Info: Redefining \pageref on input line 15.
 
-\AtBeginShipoutBox=\box26
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 23.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 23.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 23.
+(./datenbankoptimerung.out) (./datenbankoptimerung.out)
+\@outlinefile=\write3
+\openout3 = `datenbankoptimerung.out'.
+
+\AtBeginShipoutBox=\box28
  [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./datenbankoptimerung.aux
 
-Package hyperref Warning: Option `colorlinks' has already been used,
-(hyperref)                setting the option has no effect on input line 30.
 
-(./wiki.toc
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 2.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 2.
-)
-\tf@toc=\write4
-\openout4 = `wiki.toc'.
+! Package babel Error: You haven't loaded the option english yet.
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.32 \chapter
-             {Monitoring} [1
+See the babel package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.14 \select@language{english}
+                              
+You may proceed, but expect unexpected results
 
-]
-Chapter 1.
-[2
-
-]
-Chapter 2.
-
-Overfull \hbox (27.74675pt too wide) in paragraph at lines 99--99
-[]\OT1/cmtt/m/n/10 #tunnel a remote port to another machine while using an exis
-ting tunnel[] 
- []
-
-
-Overfull \hbox (6.74693pt too wide) in paragraph at lines 99--99
-[]\OT1/cmtt/m/n/10 ssh -p <local_port> root@localhost -L localhost:8080:192.168
-.1.1:80[] 
- []
-
-[3
-
-]
-Overfull \hbox (59.24648pt too wide) in paragraph at lines 137--137
-[]\OT1/cmtt/m/n/10 # security: write password to root only readable file in e.g
-. /root/authfiles[] 
- []
-
-
-Overfull \hbox (38.24666pt too wide) in paragraph at lines 137--137
-[]\OT1/cmtt/m/n/10 #set status [catch { exec cat ${PASSWORD_DIR}${PASSWORD_FILE
-} } PASSWORD][] 
- []
-
-[4]
-Overfull \hbox (48.74657pt too wide) in paragraph at lines 179--179
-[]\OT1/cmtt/m/n/10 # this looks nice and rarely rolls over - I've never had a p
-roblem with it.[] 
- []
-
-
-Overfull \hbox (6.74693pt too wide) in paragraph at lines 179--179
-[]\OT1/cmtt/m/n/10 sudo sysctl -w kernel.pid_max="999999" # unnecessary, but I 
-like it[] 
- []
-
-
-Overfull \hbox (43.49661pt too wide) in paragraph at lines 179--179
-[]\OT1/cmtt/m/n/10 # seconds to delay after a kernel panic and before rebooting
- automatically[] 
- []
-
-
-Overfull \hbox (48.74657pt too wide) in paragraph at lines 179--179
-[]\OT1/cmtt/m/n/10 # this can be used to force reboots, kill processses, cause 
-kernel crashes,[] 
- []
-
-
-Overfull \hbox (32.9967pt too wide) in paragraph at lines 179--179
-[]\OT1/cmtt/m/n/10 # but it's very handy when a machine is hung and you need to
- get control[] 
- []
-
-
-Overfull \hbox (95.99615pt too wide) in paragraph at lines 179--179
-[]\OT1/cmtt/m/n/10 # these will need local tuning, currently set to start flush
-ing dirty pages at 256MB[] 
- []
-
-
-Overfull \hbox (106.49606pt too wide) in paragraph at lines 179--179
-[]\OT1/cmtt/m/n/10 # writes will start blocking at 2GB of dirty data, but this 
-should only ever happen if[] 
- []
-
-
-Overfull \hbox (106.49606pt too wide) in paragraph at lines 179--179
-[]\OT1/cmtt/m/n/10 # If you have an older kernel, you will need to s/bytes/rati
-o/ and adjust accordingly.[] 
- []
-
-[5]
-Overfull \hbox (74.99634pt too wide) in paragraph at lines 216--216
-[]\OT1/cmtt/m/n/10 mount -t cifs -o rw,nobrl,nosuid,nodev,credentials=</path_to
-_credentials file> \[] 
- []
-
-
-Overfull \hbox (17.24684pt too wide) in paragraph at lines 216--216
-[]\OT1/cmtt/m/n/10 <//backup-server/backup_path </local_mount_point/<local_back
-up_path/>[] 
- []
-
-
-Overfull \hbox (38.24666pt too wide) in paragraph at lines 216--216
-[]\OT1/cmtt/m/n/10 <//backup-server/backup_path  </local_mount_point/<local_bac
-kup_path/>  \[] 
- []
-
-
-Overfull \hbox (17.24684pt too wide) in paragraph at lines 230--230
-[]\OT1/cmtt/m/n/10 Entfert Drucksperren, editier und extrahier-einschr^^?ankung
-en auf PDFs.[] 
- []
-
-
-Overfull \hbox (74.99634pt too wide) in paragraph at lines 230--230
-[]    \OT1/cmtt/m/n/10 > for file in *.pdf; do qpdf --decrypt $file ${file/.pdf
-/_rescued.pdf}; done[] 
- []
-
-
-Overfull \hbox (48.74657pt too wide) in paragraph at lines 242--242
-[]\OT1/cmtt/m/n/10 2.  arandr von der comando-zeile aus starten. Ein GUI geht a
-uf und dann die[] 
- []
-
-
-Overfull \hbox (6.74693pt too wide) in paragraph at lines 242--242
-[]\OT1/cmtt/m/n/10 Attention: on XFCE it's different. Go to Settings > Settings
- Editor[] 
- []
-
-
-Overfull \hbox (22.4968pt too wide) in paragraph at lines 242--242
-[]\OT1/cmtt/m/n/10 and select Displays. Browse the following > default > "your 
-display" >[] 
- []
-
-
-Overfull \hbox (27.74675pt too wide) in paragraph at lines 242--242
-[]\OT1/cmtt/m/n/10 Position > X (the value is where to begin to extend i.e. ful
-lhd = 1920)[] 
- []
-
-[6]
-Overfull \hbox (69.74638pt too wide) in paragraph at lines 297--297
-[]\OT1/cmtt/m/n/10 http://shell.peach.ne.jp/~aoyama/wordpress/download/net-e100
-0e-2.1.4.x86_64.vib[] 
- []
-
-[7]
-Overfull \hbox (6.74693pt too wide) in paragraph at lines 319--319
-[]\OT1/cmtt/m/n/10 3. vmkfstools -i \/vmfs/volumes/Datastore/examplevm/examplev
-m.vmdk\[] 
- []
-
-
-Overfull \hbox (27.74675pt too wide) in paragraph at lines 319--319
-[]\OT1/cmtt/m/n/10 run this for every VMDK file if it's thin provisioned in the
- directory.[] 
- []
-
-
-Overfull \hbox (38.24666pt too wide) in paragraph at lines 344--344
-[]\OT1/cmtt/m/n/10 1. Run the following command to append the configuration lin
-e to the file[] 
- []
-
-
-Overfull \hbox (74.99634pt too wide) in paragraph at lines 344--344
-[]  \OT1/cmtt/m/n/10 $ echo options hid_apple fnmode=2 | sudo tee -a /etc/modpr
-obe.d/hid_apple.conf[] 
- []
-
-[8]
-Overfull \hbox (48.74657pt too wide) in paragraph at lines 385--385
-[]\OT1/cmtt/m/n/10 referrals Weiterverfolgen von LDAP-Referrals (Verweise)? > n
-icht ankreutzen[] 
- []
-
-[9]
-Chapter 3.
-
-Overfull \hbox (53.99652pt too wide) in paragraph at lines 418--418
-[]\OT1/cmtt/m/n/10 f^^?ur Postgresql gibt es eine Datei /etc/postgresql/<VERSIO
-N>/main/pg_hba.conf[] 
- []
-
-
-Overfull \hbox (64.49643pt too wide) in paragraph at lines 418--418
-[]\OT1/cmtt/m/n/10 Standardm^^?assig besagt diese das Verbindungen ausschliessl
-ich von Lokal auf die[] 
- []
-
-
-Overfull \hbox (48.74657pt too wide) in paragraph at lines 418--418
-[]\OT1/cmtt/m/n/10 um dies zu []Andern muss die entsprechende IP oder das Netz 
-angegeben werden:[] 
- []
-
-[10
-
-]
-Overfull \hbox (48.74657pt too wide) in paragraph at lines 430--430
-[]\OT1/cmtt/m/n/10 pgadmin wird verwendet um eine GUI Oberfl^^?ache f^^?ur Post
-gresql Datenbanken zu[] 
- []
-
-
-Overfull \hbox (48.74657pt too wide) in paragraph at lines 430--430
-[]\OT1/cmtt/m/n/10 haben. Da wegen der oben bereits erw^^?ahnten Firewall meist
- nur von lokal aus[] 
- []
-
-
-Overfull \hbox (38.24666pt too wide) in paragraph at lines 430--430
-[]\OT1/cmtt/m/n/10 verbunden werden kann, ben^^?otigt es einen Tunnel um eine V
-erbindung herzu-[] 
- []
-
-
-Overfull \hbox (48.74657pt too wide) in paragraph at lines 430--430
-[]\OT1/cmtt/m/n/10 ssh -L <LokalerPort>:localhost:<5432(standard bei psql)> use
-rname@remote_ip[] 
- []
-
-
-Overfull \hbox (27.74675pt too wide) in paragraph at lines 435--435
-[]\OT1/cmtt/m/n/10 UPDATE <TABLE> SET <ATTRIBUTE>=md5('pass') WHERE <ATTRIBUTE>
-='<VALUE>';[] 
- []
-
-[11]
-Overfull \hbox (27.74675pt too wide) in paragraph at lines 494--494
-[]\OT1/cmtt/m/n/10 ^^?ubereinstimmen(karte.001 = benutzer.001) werden miteinand
-ern verkn^^?upft.[] 
- []
-
-
-Overfull \hbox (11.99689pt too wide) in paragraph at lines 494--494
-[]\OT1/cmtt/m/n/10 insert into srv_leser_gruppen2mandant (leser_group_id, manda
-nten_id)[] 
- []
-
-
-Overfull \hbox (1.49698pt too wide) in paragraph at lines 494--494
-[]\OT1/cmtt/m/n/10 select leser_group_id, 2 as mandanten_id from srv_leser_grup
-pen lg[] 
- []
-
-
-Overfull \hbox (27.74675pt too wide) in paragraph at lines 494--494
-[]\OT1/cmtt/m/n/10 select leser_group_id, mandanten_id from srv_leser_gruppen2m
-andant lg2m[] 
- []
-
-[12] (./wiki.aux) ) 
+) ) 
 Here is how much of TeX's memory you used:
- 3780 strings out of 495061
- 54517 string characters out of 1182622
- 121061 words of memory out of 3000000
- 6893 multiletter control sequences out of 15000+50000
- 9137 words of font info for 33 fonts, out of 3000000 for 9000
+ 5968 strings out of 495061
+ 87318 string characters out of 1182622
+ 179175 words of memory out of 3000000
+ 9073 multiletter control sequences out of 15000+50000
+ 3640 words of font info for 14 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 38i,6n,36p,249b,415s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmb
-x10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></u
-sr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/tex
-mf-texlive/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/f
-onts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-texlive/fonts/type1/p
-ublic/amsfonts/cm/cmtt10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfo
-nts/cm/cmtt12.pfb>
-Output written on wiki.pdf (13 pages, 140396 bytes).
+ 43i,6n,56p,342b,303s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+Output written on datenbankoptimerung.pdf (1 page, 9642 bytes).
 PDF statistics:
- 221 PDF objects out of 1000 (max. 8388607)
- 38 named destinations out of 1000 (max. 500000)
- 193 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 15 PDF objects out of 1000 (max. 8388607)
+ 2 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

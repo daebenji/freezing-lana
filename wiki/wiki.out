@@ -5,17 +5,18 @@
 \BOOKMARK [1][-]{section.2.2}{Sed spielerei die Erste}{chapter.2}
 \BOOKMARK [1][-]{section.2.3}{Tunnel bauen}{chapter.2}
 \BOOKMARK [1][-]{section.2.4}{expect-scripts}{chapter.2}
-\BOOKMARK [1][-]{section.2.5}{rsync-magic}{chapter.2}
-\BOOKMARK [1][-]{section.2.6}{Workspace Switcher Ubuntu 12.04 }{chapter.2}
-\BOOKMARK [1][-]{section.2.7}{Mounten unter Linux}{chapter.2}
-\BOOKMARK [1][-]{section.2.8}{PDF Einschr\344nkungen entfernen}{chapter.2}
-\BOOKMARK [1][-]{section.2.9}{Ubuntu XFCE extended Screen}{chapter.2}
-\BOOKMARK [1][-]{section.2.10}{Config Routing add/del}{chapter.2}
-\BOOKMARK [1][-]{section.2.11}{ldap befehle zum abfragen}{chapter.2}
-\BOOKMARK [1][-]{section.2.12}{esxi install e1000e Treiber f\374r 82579LM}{chapter.2}
-\BOOKMARK [1][-]{section.2.13}{vmdk aus VMPlayer f\374r ESXI konvertieren}{chapter.2}
-\BOOKMARK [1][-]{section.2.14}{Swiss Macintosh Keyboard on Ubuntu 9.04 to 12.04 LTS \(Precise Pangolin\)}{chapter.2}
-\BOOKMARK [1][-]{section.2.15}{Doku Wiki Authldap Plugin config}{chapter.2}
+\BOOKMARK [1][-]{section.2.5}{linux-default-settings}{chapter.2}
+\BOOKMARK [1][-]{section.2.6}{rsync-magic}{chapter.2}
+\BOOKMARK [1][-]{section.2.7}{Workspace Switcher Ubuntu 12.04 }{chapter.2}
+\BOOKMARK [1][-]{section.2.8}{Mounten unter Linux}{chapter.2}
+\BOOKMARK [1][-]{section.2.9}{PDF Einschr\344nkungen entfernen}{chapter.2}
+\BOOKMARK [1][-]{section.2.10}{Ubuntu XFCE extended Screen}{chapter.2}
+\BOOKMARK [1][-]{section.2.11}{Config Routing add/del}{chapter.2}
+\BOOKMARK [1][-]{section.2.12}{ldap befehle zum abfragen}{chapter.2}
+\BOOKMARK [1][-]{section.2.13}{esxi install e1000e Treiber f\374r 82579LM}{chapter.2}
+\BOOKMARK [1][-]{section.2.14}{vmdk aus VMPlayer f\374r ESXI konvertieren}{chapter.2}
+\BOOKMARK [1][-]{section.2.15}{Swiss Macintosh Keyboard on Ubuntu 9.04 to 12.04 LTS \(Precise Pangolin\)}{chapter.2}
+\BOOKMARK [1][-]{section.2.16}{Doku Wiki Authldap Plugin config}{chapter.2}
 \BOOKMARK [0][-]{chapter.3}{Datenbanken}{}
 \BOOKMARK [1][-]{section.3.1}{Postgres DB - HBA config}{chapter.3}
 \BOOKMARK [1][-]{section.3.2}{Postgres Tunnel f\374r pgadmin}{chapter.3}
