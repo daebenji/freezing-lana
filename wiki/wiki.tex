@@ -384,6 +384,46 @@ Benutzerattributes z. B. > cn
 
 \end{verbatim}
 
+\section{nginx als proxy, zum Verschleiern}
+\begin{verbatim}
+
+Nginx als Proxy Server einrichten mit config unter
+/etc/nginx/sites-enabled/default
+
+server {
+
+# Root Verzeichnis
+        root /usr/share/nginx/www;
+# Index Dateien welche im Rootverzeichnis liegen
+# und auf eigentliche Seite weiterleiten
+        index index.html index.htm;
+# Server Name
+        server_name localhost;
+
+
+        location /doc/ {
+                alias /usr/share/doc/;
+                autoindex on;
+                allow 127.0.0.1;
+                deny all;
+        }
+
+        location / {
+        alias /var/www/zeit/;
+        }
+
+        location /presentweb {
+        proxy_pass  http://192.168.0.119/presentweb;
+        proxy_next_upstream error timeout invalid_header \n
+        http_500 http_502 http_503 http_504;
+        proxy_redirect off;
+        proxy_buffering off;
+        }
+}
+
+
+\end{verbatim}
+
 
 \chapter{Datenbanken}
 

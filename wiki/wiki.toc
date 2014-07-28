@@ -17,8 +17,9 @@
 \contentsline {section}{\numberline {2.14}vmdk aus VMPlayer f\IeC {\"u}r ESXI konvertieren}{8}{section.2.14}
 \contentsline {section}{\numberline {2.15}Swiss Macintosh Keyboard on Ubuntu 9.04 to 12.04 LTS (Precise Pangolin)}{8}{section.2.15}
 \contentsline {section}{\numberline {2.16}Doku Wiki Authldap Plugin config}{9}{section.2.16}
-\contentsline {chapter}{\numberline {3}Datenbanken}{10}{chapter.3}
-\contentsline {section}{\numberline {3.1}Postgres DB - HBA config}{10}{section.3.1}
-\contentsline {section}{\numberline {3.2}Postgres Tunnel f\IeC {\"u}r pgadmin}{11}{section.3.2}
-\contentsline {section}{\numberline {3.3}Datenbank Passwort to md5}{11}{section.3.3}
-\contentsline {section}{\numberline {3.4}ZKS Karten und Benutzer Import}{11}{section.3.4}
+\contentsline {section}{\numberline {2.17}nginx als proxy, zum Verschleiern}{9}{section.2.17}
+\contentsline {chapter}{\numberline {3}Datenbanken}{11}{chapter.3}
+\contentsline {section}{\numberline {3.1}Postgres DB - HBA config}{11}{section.3.1}
+\contentsline {section}{\numberline {3.2}Postgres Tunnel f\IeC {\"u}r pgadmin}{12}{section.3.2}
+\contentsline {section}{\numberline {3.3}Datenbank Passwort to md5}{12}{section.3.3}
+\contentsline {section}{\numberline {3.4}ZKS Karten und Benutzer Import}{12}{section.3.4}
