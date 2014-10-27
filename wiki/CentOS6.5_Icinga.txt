@@ -1,0 +1,30 @@
+cd /tmp/
+wget http://pkgs.repoforge.org/rpmforge-release/rpmforge-release-0.5.3-1.el6.rf.x86_64.rpm
+rpm --import http://apt.sw.be/RPM-GPG-KEY.dag.txt
+rpm -K rpmforge-release-0.5.3-1.el6.rf.*.rpm
+rpm -i rpmforge-release-0.5.3-1.el6.rf.*.rpm
+yum search icinga
+yum install icinga icinga-gui icinga-doc icinga-idoutils-libdbi-mysql
+yum install nagios-plugins
+mysql -u root -p icinga < /usr/share/doc/icinga-idoutils-libdbi-mysql-1.8.4/db/mysql/mysql.sql
+/usr/sbin/useradd -m icinga
+passwd icinga
+/usr/sbin/groupadd icinga
+ls -ahl /usr/share/icinga/
+ls -ahl /usr/lib64/icinga/
+ls -ahl /usr/lib64/icinga/cgi/
+htpasswd -c /etc/icinga/passwd icingaadmin
+/usr/sbin/groupadd icinga-cmd
+cd /usr/lib64/icinga/cgi/
+/usr/sbin/usermod -a -G icinga-cmd icinga
+/usr/sbin/usermod -a -G icinga-cmd apache
+wget http://nagios-plugins.org/download/nagios-plugins-2.0.3.tar.gz
+tar xzf nagios-plugins-2.0.3.tar.gz
+cd nagios-plugins-2.0.3/ &&   ./configure --prefix=/usr/lib64/nagios     --with-cgiurl=/icinga/cgi-bin     --with-nagios-user=icinga --with-nagios-group=icinga
+make
+make install
+mv /usr/local/icinga/* /usr/lib64/nagios/plugins/
+cp libexec/* .
+/etc/init.d/icinga restart
+service ido2db restart
+tailf /var/log/icinga/icinga.log
